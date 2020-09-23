@@ -5,7 +5,7 @@ var token = "NzUwOTAwNDM4Njg5MzgyNTMx.X1BQhw.vzdG75b3A9O21gaIh3mQuMe2qts";
 // الاختصار المستخدم في الاوامر
 const prefix = "";
 // نشاط البوت
-var activity = prefix + "§";
+var activity = prefix + "!";
 // حالة البوت
 var status = "online";
 /**
@@ -27,7 +27,7 @@ async function onMessage(message)
 				case "help":
 					if(message.member.hasPermission(Discord.Permissions.ALL))
 					{
-						message.author.send("```msgall```");
+						message.author.send("```drax```");
 						message.reply("Ay sir! I DMed you with my current abilities.");
 					}
 					else
